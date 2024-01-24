@@ -12,6 +12,7 @@ function mystery(a) {
 }
 ```
 
-This function returns the maximum value in a list using recurision. 
-It compares the the first value of the array to foo, which is the maximum of the rest of the list,
-and then returns the greater of the two. -Noah Mulvaney
+This function returns the maximum value in an array.
+
+It compares the the first value of the array to the maximum of the rest of the list,
+and then returns the greater of the two at each level of recursion, including at the top layer. The function checks the length as a base case. -Noah Mulvaney
